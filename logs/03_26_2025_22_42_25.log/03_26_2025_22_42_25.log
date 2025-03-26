@@ -1,0 +1,2 @@
+[2025-03-26 22:42:25,916] 20 root - INFO - Enter the Try Block
+[2025-03-26 22:42:25,916] 24 root - INFO - Error occured in Python script name [D:\lokesh\DS\MLops\Projects\NetworkSecurity\networksecurity\exception\execption.py] line number [21] error message [division by zero]
