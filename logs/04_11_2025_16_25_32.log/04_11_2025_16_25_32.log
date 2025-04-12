@@ -1,0 +1,50 @@
+[2025-04-11 16:25:40,684] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-11 16:25:40,696] 107 dagshub - INFO - Accessing as gaur8126
+[2025-04-11 16:25:43,751] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gaur8126/networksecurity "HTTP/1.1 200 OK"
+[2025-04-11 16:25:44,574] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-11 16:25:44,577] 107 dagshub - INFO - Initialized MLflow to track repo "gaur8126/networksecurity"
+[2025-04-11 16:25:44,596] 107 dagshub - INFO - Repository gaur8126/networksecurity initialized!
+[2025-04-11 16:25:44,597] 17 root - INFO - Initiate the data ingestion
+[2025-04-11 16:25:50,060] 65 root - INFO - Performed train test split on the dataframe
+[2025-04-11 16:25:50,060] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class 
+[2025-04-11 16:25:50,060] 74 root - INFO - Exporting train and test file path
+[2025-04-11 16:25:50,127] 83 root - INFO - Exported train and test file path.
+[2025-04-11 16:25:50,127] 19 root - INFO - Data Ingestion completed
+[2025-04-11 16:25:50,139] 25 root - INFO - Initiate the data validation
+[2025-04-11 16:25:50,245] 34 root - INFO - Required number of columns: 2
+[2025-04-11 16:25:50,245] 35 root - INFO - Data frame as columns: 31
+[2025-04-11 16:25:50,245] 34 root - INFO - Required number of columns: 2
+[2025-04-11 16:25:50,246] 35 root - INFO - Data frame as columns: 31
+[2025-04-11 16:25:50,420] 27 root - INFO - Data Validation completed
+[2025-04-11 16:25:50,420] 33 root - INFO - Data Transformation started
+[2025-04-11 16:25:50,420] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-04-11 16:25:50,420] 66 root - INFO - Starting data transformation
+[2025-04-11 16:25:50,453] 47 root - INFO - Entered get_data_trandsfoemation_object method of Transformation class
+[2025-04-11 16:25:50,453] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-11 16:25:50,486] 48 root - INFO - Entered the save_object method of Main utils class
+[2025-04-11 16:25:50,487] 52 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-11 16:25:50,487] 35 root - INFO - Data Transformation completed
+[2025-04-11 16:25:50,487] 39 root - INFO - Model training started
+[2025-04-11 16:25:50,529] 142 root - INFO - y_train [0. 1.]
+[2025-04-11 16:25:50,531] 143 root - INFO - y_train [0. 1.]
+[2025-04-11 16:26:00,077] 101 root - INFO - trained accuracy 0.9898236092265943
+[2025-04-11 16:26:00,077] 103 root - INFO - test accuracy 0.9751243781094527
+[2025-04-11 16:26:00,274] 101 root - INFO - trained accuracy 0.9898236092265943
+[2025-04-11 16:26:00,274] 103 root - INFO - test accuracy 0.9642695612844867
+[2025-04-11 16:33:21,930] 101 root - INFO - trained accuracy 0.968340117593849
+[2025-04-11 16:33:21,930] 103 root - INFO - test accuracy 0.9592944369063772
+[2025-04-11 16:33:22,285] 101 root - INFO - trained accuracy 0.9300090456806874
+[2025-04-11 16:33:22,285] 103 root - INFO - test accuracy 0.924468566259611
+[2025-04-11 16:34:22,787] 101 root - INFO - trained accuracy 0.9285391225689733
+[2025-04-11 16:34:22,793] 103 root - INFO - test accuracy 0.9176843057440073
+[2025-04-11 16:34:22,793] 106 root - INFO - Report : {'Random Forest': 0.9751243781094527, 'Decision Tree': 0.9642695612844867, 'Gradient Boosting': 0.9592944369063772, 'LogisticsRegression': 0.924468566259611, 'AdaBoost': 0.9176843057440073}
+[2025-04-11 16:34:22,795] 87 root - INFO - Best model score : 0.9751243781094527
+[2025-04-11 16:34:22,795] 94 root - INFO - Best model name Random Forest
+[2025-04-11 16:37:53,510] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=7, read=7, redirect=7, status=7)) after connection broken by 'SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:2384)')': /gaur8126/networksecurity.mlflow/api/2.0/mlflow-artifacts/artifacts/4f859add2fca4c6caef1766344a9f2e7/8eb94b6685334279b0c5274197fecaef/artifacts/model/model.pkl
+[2025-04-11 16:37:58,333] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=6, read=7, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020428A98760>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /gaur8126/networksecurity.mlflow/api/2.0/mlflow-artifacts/artifacts/4f859add2fca4c6caef1766344a9f2e7/8eb94b6685334279b0c5274197fecaef/artifacts/model/model.pkl
+[2025-04-11 16:42:55,507] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=6, connect=7, read=6, redirect=7, status=7)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /gaur8126/networksecurity.mlflow/api/2.0/mlflow/runs/create
+[2025-04-11 16:43:00,194] 868 urllib3.connectionpool - WARNING - Retrying (Retry(total=5, connect=6, read=6, redirect=7, status=7)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002043444F130>: Failed to resolve 'dagshub.com' ([Errno 11001] getaddrinfo failed)")': /gaur8126/networksecurity.mlflow/api/2.0/mlflow/runs/create
+[2025-04-11 16:46:13,276] 48 root - INFO - Entered the save_object method of Main utils class
+[2025-04-11 16:46:13,292] 52 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-11 16:46:13,292] 119 root - INFO - Model Trainer Artifact : ModelTrainerArtifact(trained_model_file_path='Artifacts\\04_11_2025_16_25_33\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9909109270854373, precision_score=0.9885150110820069, recall_score=0.9933184855233853), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9775051124744376, precision_score=0.973920130399348, recall_score=0.9811165845648604))
+[2025-04-11 16:46:13,292] 43 root - INFO - Model Trainig completed
