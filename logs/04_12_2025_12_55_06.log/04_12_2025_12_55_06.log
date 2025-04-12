@@ -1,0 +1,47 @@
+[2025-04-12 12:55:12,463] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-12 12:55:12,471] 107 dagshub - INFO - Accessing as gaur8126
+[2025-04-12 12:55:13,976] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/gaur8126/networksecurity "HTTP/1.1 200 OK"
+[2025-04-12 12:55:14,616] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-04-12 12:55:14,616] 107 dagshub - INFO - Initialized MLflow to track repo "gaur8126/networksecurity"
+[2025-04-12 12:55:14,639] 107 dagshub - INFO - Repository gaur8126/networksecurity initialized!
+[2025-04-12 12:58:57,072] 38 root - INFO - start data Ingestion
+[2025-04-12 12:59:05,218] 65 root - INFO - Performed train test split on the dataframe
+[2025-04-12 12:59:05,218] 67 root - INFO - Exited split_data_as_train_test method of Data_Ingestion class 
+[2025-04-12 12:59:05,219] 74 root - INFO - Exporting train and test file path
+[2025-04-12 12:59:05,470] 83 root - INFO - Exported train and test file path.
+[2025-04-12 12:59:05,470] 41 root - INFO - Data Ingestion completed and artifact : DataIngestionArtifact(trained_file_path='Artifacts\\04_12_2025_12_55_07\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\04_12_2025_12_55_07\\data_ingestion\\ingested\\test.csv')
+[2025-04-12 12:59:05,496] 50 root - INFO - Initiate data validation
+[2025-04-12 12:59:05,663] 34 root - INFO - Required number of columns: 2
+[2025-04-12 12:59:05,663] 35 root - INFO - Data frame as columns: 31
+[2025-04-12 12:59:05,663] 34 root - INFO - Required number of columns: 2
+[2025-04-12 12:59:05,663] 35 root - INFO - Data frame as columns: 31
+[2025-04-12 12:59:06,262] 60 root - INFO - start data transformation
+[2025-04-12 12:59:06,262] 63 root - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-04-12 12:59:06,262] 66 root - INFO - Starting data transformation
+[2025-04-12 12:59:06,345] 47 root - INFO - Entered get_data_trandsfoemation_object method of Transformation class
+[2025-04-12 12:59:06,345] 53 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-04-12 12:59:06,369] 48 root - INFO - Entered the save_object method of Main utils class
+[2025-04-12 12:59:06,378] 52 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-12 12:59:06,378] 48 root - INFO - Entered the save_object method of Main utils class
+[2025-04-12 12:59:06,380] 52 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-12 12:59:06,380] 70 root - INFO - model trainer completed
+[2025-04-12 12:59:06,428] 142 root - INFO - y_train [0. 1.]
+[2025-04-12 12:59:06,431] 143 root - INFO - y_train [0. 1.]
+[2025-04-12 12:59:21,747] 101 root - INFO - trained accuracy 0.9903889642695612
+[2025-04-12 12:59:21,755] 103 root - INFO - test accuracy 0.9678878335594754
+[2025-04-12 12:59:22,164] 101 root - INFO - trained accuracy 0.9906151062867481
+[2025-04-12 12:59:22,164] 103 root - INFO - test accuracy 0.9620081411126187
+[2025-04-12 13:13:42,132] 101 root - INFO - trained accuracy 0.9659656264133876
+[2025-04-12 13:13:42,132] 103 root - INFO - test accuracy 0.9538670284938942
+[2025-04-12 13:13:42,284] 101 root - INFO - trained accuracy 0.9289914066033469
+[2025-04-12 13:13:42,286] 103 root - INFO - test accuracy 0.9258254183627318
+[2025-04-12 13:14:11,973] 101 root - INFO - trained accuracy 0.9276345545002261
+[2025-04-12 13:14:11,973] 103 root - INFO - test accuracy 0.9181365897783809
+[2025-04-12 13:14:11,973] 106 root - INFO - Report : {'Random Forest': 0.9678878335594754, 'Decision Tree': 0.9620081411126187, 'Gradient Boosting': 0.9538670284938942, 'LogisticsRegression': 0.9258254183627318, 'AdaBoost': 0.9181365897783809}
+[2025-04-12 13:14:11,973] 87 root - INFO - Best model score : 0.9678878335594754
+[2025-04-12 13:14:11,973] 94 root - INFO - Best model name Random Forest
+[2025-04-12 13:15:10,034] 48 root - INFO - Entered the save_object method of Main utils class
+[2025-04-12 13:15:10,034] 52 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-12 13:15:10,034] 48 root - INFO - Entered the save_object method of Main utils class
+[2025-04-12 13:15:10,034] 52 root - INFO - Exited the save_object method of MainUtils class
+[2025-04-12 13:15:10,034] 119 root - INFO - Model Trainer Artifact : ModelTrainerArtifact(trained_model_file_path='Artifacts\\04_12_2025_12_55_07\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9914564277816866, precision_score=0.9879807692307693, recall_score=0.9949566269921324), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9709135600163867, precision_score=0.9548751007252216, recall_score=0.9875))
