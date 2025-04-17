@@ -32,18 +32,9 @@ This machine learning project detects network threats with a strong accuracy of 
  ┃ ┗ 📜preprocessor.pkl
  ┣ 📂networksecurity
  ┃ ┣ 📂cloud
- ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┣ 📜s3_syncer.cpython-310.pyc
- ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┣ 📜s3_syncer.py
  ┃ ┃ ┗ 📜__init__.py
  ┃ ┣ 📂components
- ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┣ 📜data_ingestion.cpython-310.pyc
- ┃ ┃ ┃ ┣ 📜data_transformation.cpython-310.pyc
- ┃ ┃ ┃ ┣ 📜data_validation.cpython-310.pyc
- ┃ ┃ ┃ ┣ 📜model_trainer.cpython-310.pyc
- ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┣ 📜data_ingestion.py
  ┃ ┃ ┣ 📜data_transformation.py
  ┃ ┃ ┣ 📜data_validation.py
@@ -51,67 +42,37 @@ This machine learning project detects network threats with a strong accuracy of 
  ┃ ┃ ┗ 📜__init__.py
  ┃ ┣ 📂constant
  ┃ ┃ ┣ 📂training_pipeline
- ┃ ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┃ ┗ 📜__init__.py
  ┃ ┃ ┣ 📂__pycache__
  ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┗ 📜__init__.py
  ┃ ┣ 📂entity
- ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┣ 📜artifact_entity.cpython-310.pyc
- ┃ ┃ ┃ ┣ 📜config_entity.cpython-310.pyc
- ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┣ 📜artifact_entity.py
  ┃ ┃ ┣ 📜config_entity.py
  ┃ ┃ ┗ 📜__init__.py
  ┃ ┣ 📂exception
- ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┣ 📜execption.cpython-310.pyc
- ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┣ 📜execption.py
  ┃ ┃ ┗ 📜__init__.py
  ┃ ┣ 📂logging
- ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┣ 📜logger.cpython-310.pyc
- ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┣ 📜logger.py
  ┃ ┃ ┗ 📜__init__.py
  ┃ ┣ 📂pipeline
- ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┣ 📜training_pipeline.cpython-310.pyc
- ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┣ 📜batch_prediction.py
  ┃ ┃ ┣ 📜training_pipeline.py
  ┃ ┃ ┗ 📜__init__.py
  ┃ ┣ 📂utils
  ┃ ┃ ┣ 📂main_utils
- ┃ ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┃ ┣ 📜utils.cpython-310.pyc
- ┃ ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┃ ┣ 📜utils.py
  ┃ ┃ ┃ ┗ 📜__init__.py
  ┃ ┃ ┣ 📂ml_utils
  ┃ ┃ ┃ ┣ 📂metric
- ┃ ┃ ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┃ ┃ ┣ 📜classification_metric.cpython-310.pyc
- ┃ ┃ ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┃ ┃ ┣ 📜classification_metric.py
  ┃ ┃ ┃ ┃ ┗ 📜__init__.py
  ┃ ┃ ┃ ┣ 📂model
- ┃ ┃ ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┃ ┃ ┣ 📜estimator.cpython-310.pyc
- ┃ ┃ ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┃ ┃ ┣ 📜estimator.py
  ┃ ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┣ 📂__pycache__
- ┃ ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📂__pycache__
- ┃ ┃ ┗ 📜__init__.cpython-310.pyc
  ┃ ┗ 📜__init__.py
  ┣ 📂Network_Data
  ┃ ┗ 📜NetworkData.csv
@@ -122,8 +83,6 @@ This machine learning project detects network threats with a strong accuracy of 
  ┃ ┗ 📜table.html
  ┣ 📂valid_data
  ┃ ┗ 📜test.csv
- ┣ 📂__pycache__
- ┃ ┗ 📜app.cpython-310.pyc
  ┣ 📜.env
  ┣ 📜.gitignore
  ┣ 📜app.py
@@ -136,4 +95,6 @@ This machine learning project detects network threats with a strong accuracy of 
  ┗ 📜test_mongodb.py
   ```
 
+## Technical Stuff 
+[![My Skills](https://skillicons.dev/icons?i=mongodb,scikit-learn&perline=3)](https://skillicons.dev)
 
