@@ -3,7 +3,9 @@
 This machine learning project detects network threats with a strong accuracy of 𝟿𝟽.𝟾𝟽% using 𝙍𝙖𝙣𝙙𝙤𝙢 𝙁𝙤𝙧𝙚𝙨𝙩. What makes this project special is how I brought together both machine learning and modern deployment practices through 𝙈𝙇𝙤𝙥𝙨.
 
 ## Index
-[How I started this project](#How-I-started-this-project)
+- [How I started this project](#How-I-started-this-project)
+- [Project Structure](#Project-Structure)
+- [Technical Stuff](#Technical-Stuff )
 
 
 ## How I started this project :-
