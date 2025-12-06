@@ -3,27 +3,11 @@
 This machine learning project detects network threats with a strong accuracy of 𝟿𝟽.𝟾𝟽% using 𝙍𝙖𝙣𝙙𝙤𝙢 𝙁𝙤𝙧𝙚𝙨𝙩. What makes this project special is how I brought together both machine learning and modern deployment practices through 𝙈𝙇𝙤𝙥𝙨.
 
 ## Index
-- [How I started this project](#How-I-started-this-project)
 - [Project Structure](#Project-Structure)
 - [Technical Stuff](#Technical-Stuff )
 
 
-## How I started this project :-
 
-* First, I had to choose a plateform where i could start it ,so started with `VSCode`(an integrated development environment). <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=vscode&perline=3" width="20"/>
-  </a>
-* Created `conda Environment`(Virtual Environment which separates the local environment and development environment). <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=anaconda&perline=3" width="20"/>
-  </a>
-* Installed all necessary packages in `requirements.txt`. <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=python&perline=3" width="20"/>
-</a>
-  
-* Considered the project as a whole package create `setup.py`(a module used to build and distribute python packages and contains the information about the packages)
-* Initailized `git` <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=github&perline=3" width="20"/>
-  </a>
 > ## Project Structure 📦
   ```
 📦ProjectStructure
