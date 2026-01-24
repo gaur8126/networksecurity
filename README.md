@@ -6,6 +6,11 @@ This machine learning project detects network threats with a strong accuracy of 
 - [Project Structure](#Project-Structure)
 - [Technical Stuff](#Technical-Stuff )
 
+## Architecture
+
+![]()
+
+
 
 
 > ## Project Structure 📦
