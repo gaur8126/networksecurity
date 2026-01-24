@@ -8,7 +8,7 @@ This machine learning project detects network threats with a strong accuracy of 
 
 ## Architecture
 
-![]()
+![](Untitled-2026-01-24-1338.excalidraw.png)
 
 
 
